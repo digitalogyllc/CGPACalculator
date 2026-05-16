@@ -1,0 +1,13 @@
+# ads.txt for CGPA to Percentage Calculator
+#
+# IMPORTANT: This is a TEMPLATE. After your AdSense account is approved,
+# Google will give you your unique publisher ID (looks like: pub-1234567890123456).
+#
+# Replace XXXXXXXXXXXXXXXX below with your actual publisher ID, then upload
+# this file to the ROOT of your domain (so it loads at https://yourdomain.com/ads.txt).
+#
+# This file declares the authorized digital sellers of your ad inventory and
+# helps prevent ad fraud. AdSense will warn you in your dashboard if it's missing
+# or misconfigured.
+
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

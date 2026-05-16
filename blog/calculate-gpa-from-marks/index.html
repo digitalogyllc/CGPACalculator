@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Calculate GPA from Marks: Step-by-Step Tutorial (2026)</title>
+<meta name="description" content="Learn how to calculate your GPA from raw subject marks. Step-by-step tutorial covering grade points, credit hours, weighted averages, and common pitfalls.">
+<meta name="keywords" content="how to calculate gpa, gpa from marks, gpa calculation, grade point average formula, credit hours gpa, semester gpa calculation, weighted gpa">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="theme-color" content="#1e4d3a">
+<link rel="canonical" href="https://cgpapercentagecalculator.com/blog/calculate-gpa-from-marks/">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg transform='rotate(-3 16 16)'%3E%3Crect x='2' y='2' width='28' height='28' rx='6' fill='%231e4d3a'/%3E%3Ctext x='16' y='21.5' font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size='13' font-weight='700' fill='%23f4efe6' text-anchor='middle'%3EC%25%3C/text%3E%3C/g%3E%3C/svg%3E">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to Calculate GPA from Marks: Step-by-Step Tutorial (2026)">
+<meta property="og:image" content="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=675&fit=crop&auto=format&q=80">
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "How to Calculate GPA from Marks: Step-by-Step Tutorial (2026)", "description": "Learn how to calculate your GPA from raw subject marks. Step-by-step tutorial covering grade points, credit hours, weighted averages, and common pitfalls.", "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=675&fit=crop&auto=format&q=80", "author": {"@type": "Person", "name": "The CGPA/P Editorial Team"}, "publisher": {"@type": "Organization", "name": "CGPA to Percentage Calculator"}, "datePublished": "2026-02-26", "dateModified": "2026-02-26", "mainEntityOfPage": "https://cgpapercentagecalculator.com/blog/calculate-gpa-from-marks/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is GPA calculated by averaging marks?", "acceptedAnswer": {"@type": "Answer", "text": "No. GPA is calculated by converting marks to grade points, then computing a credit-weighted average of those grade points. Simply averaging marks gives wrong results."}}, {"@type": "Question", "name": "Do all subjects count equally in GPA?", "acceptedAnswer": {"@type": "Answer", "text": "No. Each subject's contribution depends on its credit value. A 4-credit subject influences your GPA twice as much as a 2-credit subject with the same grade."}}, {"@type": "Question", "name": "What is a quality point?", "acceptedAnswer": {"@type": "Answer", "text": "A quality point is the product of a subject's grade point and its credit value. Sum of quality points divided by sum of credits gives you your GPA."}}, {"@type": "Question", "name": "Can I calculate GPA without knowing credit hours?", "acceptedAnswer": {"@type": "Answer", "text": "Not accurately. Credits are essential because GPA is credit-weighted. If you don't know your credits, check your university handbook or syllabus."}}, {"@type": "Question", "name": "What's the difference between SGPA and GPA?", "acceptedAnswer": {"@type": "Answer", "text": "SGPA is the GPA for a single semester. GPA can refer to either a semester average or, in many international contexts, the cumulative average across all semesters."}}]}</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:'Inter Tight',system-ui,sans-serif;background:#f4efe6;color:#1a1a1a;line-height:1.7;font-size:17px;overflow-x:hidden}
+:root{--ink:#1a1a1a;--ink-soft:#3a3a3a;--ink-muted:#6b6b6b;--paper:#f4efe6;--paper-soft:#ebe4d6;--paper-deep:#e2d9c5;--accent:#c8552c;--accent-deep:#a8431f;--green:#1e4d3a;--green-soft:#2a6b4f;--gold:#d4a93c;--line:#1a1a1a14}
+img{max-width:100%;display:block}a{color:inherit;text-decoration:none}
+.serif{font-family:'Fraunces',Georgia,serif;font-optical-sizing:auto}.mono{font-family:'JetBrains Mono',monospace}
+h1,h2,h3,h4{font-family:'Fraunces',Georgia,serif;font-weight:600;line-height:1.2;letter-spacing:-0.02em;color:var(--ink)}
+h1{font-size:clamp(2rem,4.5vw,3.4rem);font-weight:500;margin-bottom:1rem}
+h2{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:500;margin:2.5rem 0 1rem}
+h3{font-size:clamp(1.2rem,2vw,1.5rem);margin:1.75rem 0 0.75rem}
+p{margin-bottom:1.15rem;color:var(--ink-soft)}strong{color:var(--ink);font-weight:600}
+.container{max-width:1180px;margin:0 auto;padding:0 1.5rem}.article-container{max-width:780px;margin:0 auto;padding:0 1.5rem}
+.nav{position:sticky;top:0;z-index:100;background:rgba(244,239,230,0.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:1.1rem 1.5rem;max-width:1180px;margin:0 auto}
+.logo{display:flex;align-items:center;gap:0.6rem;font-family:'Fraunces',serif;font-weight:600;font-size:1.25rem}
+.logo-mark{width:34px;height:34px;background:var(--green);color:var(--paper);display:grid;place-items:center;border-radius:8px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:0.85rem;transform:rotate(-3deg)}
+.nav-links{display:flex;gap:2rem;font-size:0.95rem;font-weight:500}
+.nav-links a{color:var(--ink-soft);transition:color 0.2s}.nav-links a:hover,.nav-links a.active{color:var(--accent)}
+@media (max-width:760px){.nav-links{display:none}}
+.breadcrumb{padding:1rem 0;font-size:0.85rem;color:var(--ink-muted);font-family:'JetBrains Mono',monospace;border-bottom:1px solid var(--line)}
+.breadcrumb span{margin:0 0.4rem}.breadcrumb a{color:var(--ink-soft)}.breadcrumb a:hover{color:var(--accent)}.breadcrumb .current{color:var(--accent);font-weight:600}
+.article-head{padding:3rem 0 2rem}
+.category-tag{display:inline-block;background:var(--accent);color:#fff;padding:0.3rem 0.75rem;border-radius:6px;font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;font-family:'JetBrains Mono',monospace;margin-bottom:1.5rem}
+.article-meta{display:flex;gap:1.5rem;align-items:center;font-size:0.85rem;color:var(--ink-muted);font-family:'JetBrains Mono',monospace;margin-top:1.5rem;flex-wrap:wrap}
+.article-meta .author{display:flex;align-items:center;gap:0.6rem;color:var(--ink-soft)}
+.author-avatar{width:36px;height:36px;background:var(--green);color:var(--paper);border-radius:50%;display:grid;place-items:center;font-family:'Fraunces',serif;font-weight:600;font-size:0.95rem}
+.article-hero-img{aspect-ratio:16/9;margin:2rem 0 0;border-radius:20px;overflow:hidden;border:1.5px solid var(--ink);box-shadow:6px 6px 0 var(--green)}
+.article-hero-img img{width:100%;height:100%;object-fit:cover}
+.quick-answer{background:#fffdf7;border:1.5px solid var(--ink);border-radius:18px;padding:1.5rem 1.75rem;margin:2.5rem 0;position:relative;box-shadow:5px 5px 0 var(--accent)}
+.quick-answer::before{content:"QUICK ANSWER";position:absolute;top:-0.7rem;left:1.5rem;background:var(--accent);color:#fff;padding:0.2rem 0.7rem;border-radius:4px;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;font-family:'JetBrains Mono',monospace}
+.quick-answer p{font-size:1rem;margin-bottom:0.8rem;color:var(--ink)}.quick-answer p:last-child{margin-bottom:0}.quick-answer strong{color:var(--green)}
+.toc{background:var(--paper-soft);border-radius:14px;padding:1.25rem 1.5rem;margin:2rem 0}
+.toc-title{font-family:'JetBrains Mono',monospace;font-size:0.75rem;font-weight:700;color:var(--ink-muted);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.75rem}
+.toc ol{list-style:none;counter-reset:toc-counter}
+.toc ol li{counter-increment:toc-counter;padding:0.35rem 0;font-size:0.93rem;border-bottom:1px solid var(--line)}
+.toc ol li:last-child{border-bottom:none}
+.toc ol li::before{content:counter(toc-counter,decimal-leading-zero) ". ";font-family:'JetBrains Mono',monospace;color:var(--accent);font-weight:700;margin-right:0.5rem;font-size:0.82rem}
+.toc a{color:var(--ink-soft)}.toc a:hover{color:var(--accent)}
+.formula-card{background:var(--green);color:var(--paper);border-radius:16px;padding:2rem;text-align:center;margin:2rem 0}
+.formula-card .label{font-family:'JetBrains Mono',monospace;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.15em;opacity:0.7;margin-bottom:0.5rem}
+.formula-card .formula{font-family:'Fraunces',serif;font-size:1.7rem;font-style:italic;font-weight:500;margin:0.5rem 0}
+.formula-card .formula em{color:var(--gold);font-style:normal;font-weight:700}
+.formula-card .example{font-family:'JetBrains Mono',monospace;font-size:0.85rem;opacity:0.85;margin-top:0.75rem}
+.inline-img{margin:2rem 0;border-radius:16px;overflow:hidden;border:1px solid var(--line)}
+.inline-img img{width:100%;height:auto;display:block}
+.inline-img-caption{font-size:0.82rem;color:var(--ink-muted);text-align:center;padding:0.75rem;background:var(--paper-soft);font-style:italic;font-family:'Fraunces',serif}
+.article-container table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.92rem;background:#fffdf7;border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+.article-container th{background:var(--green);color:var(--paper);padding:0.7rem 0.9rem;text-align:left;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.05em}
+.article-container td{padding:0.65rem 0.9rem;border-bottom:1px solid var(--line)}
+.article-container tr:last-child td{border-bottom:none}.article-container tr:nth-child(even) td{background:var(--paper-soft)}
+.article-container ul,.article-container ol{margin:1rem 0 1.5rem 1.5rem;color:var(--ink-soft)}
+.article-container li{margin-bottom:0.6rem;line-height:1.75}
+.callout{background:#fffdf7;border-left:4px solid var(--accent);padding:1.2rem 1.5rem;margin:1.75rem 0;border-radius:0 12px 12px 0}
+.callout strong{display:block;font-size:0.78rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--accent);margin-bottom:0.4rem;font-family:'JetBrains Mono',monospace}
+.callout p{margin:0;font-size:0.95rem}
+.tool-cta{background:var(--green);color:var(--paper);border-radius:18px;padding:2rem;margin:2.5rem 0;text-align:center}
+.tool-cta h3{color:var(--paper);font-size:1.5rem;margin-bottom:0.5rem}
+.tool-cta p{color:#ffffffcc;margin-bottom:1.25rem;font-size:0.97rem}
+.tool-cta-btn{display:inline-block;background:var(--gold);color:var(--ink);padding:0.8rem 1.5rem;border-radius:999px;font-weight:700;font-size:0.92rem;transition:all 0.2s}
+.tool-cta-btn:hover{background:#fff;transform:translateY(-2px)}
+.faq-section{background:var(--paper-soft);padding:3.5rem 0;margin-top:3rem}
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-item summary{padding:1.1rem 0;font-weight:600;font-size:1rem;color:var(--ink);cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";font-family:'Fraunces',serif;font-size:1.5rem;color:var(--accent);transition:transform 0.2s;line-height:1}
+.faq-item[open] summary::after{transform:rotate(45deg)}
+.faq-body{padding:0 0 1.25rem;font-size:0.97rem;color:var(--ink-soft)}
+.related-section{padding:4rem 0;border-top:1px solid var(--line)}
+.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2rem}
+@media (max-width:760px){.related-grid{grid-template-columns:1fr}}
+.related-card{background:#fffdf7;border:1px solid var(--line);border-radius:14px;padding:1.25rem;transition:all 0.2s}
+.related-card:hover{border-color:var(--ink);transform:translateY(-2px)}
+.related-card .cat{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:0.08em;font-weight:600}
+.related-card h4{font-size:1rem;margin:0.4rem 0 0.4rem}
+.related-card p{font-size:0.85rem;color:var(--ink-muted);margin:0}
+.footer{background:var(--paper-soft);padding:3rem 0 2rem;border-top:1px solid var(--line)}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem;margin-bottom:2rem}
+@media (max-width:960px){.footer-grid{grid-template-columns:1fr 1fr;gap:2.5rem 2rem}}
+@media (max-width:520px){.footer-grid{grid-template-columns:1fr}}
+.footer h4{font-family:'Inter Tight',sans-serif;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink);margin-bottom:1rem;font-weight:600}
+.footer ul{list-style:none}.footer li{margin-bottom:0.5rem;font-size:0.93rem}
+.footer a{color:var(--ink-soft)}.footer a:hover{color:var(--accent)}
+.footer-bottom{padding-top:2rem;border-top:1px solid var(--line);text-align:center;font-size:0.85rem;color:var(--ink-muted)}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background-image:radial-gradient(#1a1a1a08 1px,transparent 1px);background-size:32px 32px;opacity:0.5}
+</style>
+</head>
+<body>
+<header class="nav"><nav class="nav-inner"><a href="/" class="logo"><span class="logo-mark">C%</span><span>CGPA<span style="color:var(--accent)">/</span>P</span></a><div class="nav-links"><a href="/tools/" style="color:var(--accent);font-weight:700">All Tools ↗</a><a href="/blog/" class="active">Blog</a><a href="/#what-is-cgpa">What is CGPA</a><a href="/#formula">Formula</a><a href="/#table">Conversion Table</a><a href="/#faq">FAQ</a></div></nav></header>
+<div class="breadcrumb"><div class="container"><a href="/">Home</a><span>›</span><a href="/blog/">Blog</a><span>›</span><span class="current">How to Calculate GPA from Marks</span></div></div>
+<article>
+<header class="article-head"><div class="article-container">
+<span class="category-tag">Tutorial</span>
+<h1 class="serif">How to Calculate GPA from Marks: Step-by-Step Tutorial</h1>
+<p style="font-size:1.15rem;color:var(--ink-soft);margin:0">A walkthrough on building your GPA from raw subject marks — covering grade points, credit weighting, and worked examples for every common scenario.</p>
+<div class="article-meta"><div class="author"><div class="author-avatar">E</div><span>CGPA/P Editorial</span></div><span>· February 26, 2026</span><span>· 6 min read</span></div>
+<div class="article-hero-img"><img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=675&fit=crop&auto=format&q=80" alt="Person using calculator and writing notes"></div>
+</div></header>
+<div class="article-container" style="padding-bottom:3rem">
+
+<div class="quick-answer">
+<p><strong>To calculate GPA from marks: (1) convert each subject's marks to grade points using your university's grading scale, (2) multiply each subject's grade points by its credit value, (3) sum these products, and (4) divide by the total credits.</strong></p>
+<p>The formula is: <span class="mono">GPA = Σ(Grade Point × Credits) ÷ Σ Credits</span>. For example, if you scored 85, 78, and 92 in three subjects worth 4, 3, and 4 credits respectively, your GPA is approximately 9.18 on a 10-point scale.</p>
+</div>
+
+<nav class="toc"><div class="toc-title">In This Article</div><ol>
+<li><a href="#step1">Step 1: Convert Marks to Grade Points</a></li>
+<li><a href="#step2">Step 2: Multiply by Credit Hours</a></li>
+<li><a href="#step3">Step 3: Sum and Divide</a></li>
+<li><a href="#example">Complete Worked Example</a></li>
+<li><a href="#mistakes">Common Mistakes</a></li>
+<li><a href="#tips">Tips for Accuracy</a></li>
+</ol></nav>
+
+<h2 id="step1" class="serif">Step 1: Convert Your Marks to Grade Points</h2>
+<p>Your raw marks (out of 100) don't directly translate to grade points — they pass through a grading scale first. Each university maintains its own grade-band cutoffs, but here's the typical Indian engineering university scale:</p>
+
+<table>
+<thead><tr><th>Marks Range</th><th>Letter Grade</th><th>Grade Point (10-scale)</th><th>Grade Point (4-scale)</th></tr></thead>
+<tbody>
+<tr><td>90-100</td><td>O (Outstanding)</td><td>10</td><td>4.0</td></tr>
+<tr><td>80-89</td><td>A+ (Excellent)</td><td>9</td><td>3.7</td></tr>
+<tr><td>70-79</td><td>A (Very Good)</td><td>8</td><td>3.3</td></tr>
+<tr><td>60-69</td><td>B+ (Good)</td><td>7</td><td>3.0</td></tr>
+<tr><td>55-59</td><td>B (Above Avg)</td><td>6</td><td>2.7</td></tr>
+<tr><td>50-54</td><td>C (Avg)</td><td>5</td><td>2.0</td></tr>
+<tr><td>45-49</td><td>P (Pass)</td><td>4</td><td>1.0</td></tr>
+<tr><td>Below 45</td><td>F (Fail)</td><td>0</td><td>0</td></tr>
+</tbody>
+</table>
+
+<p>So if you scored 85 in Subject A, that subject's grade point is 9. If you scored 73 in Subject B, the grade point is 8. <strong>Always use your specific university's scale</strong>, not a generic one — some institutions use different cutoffs (e.g., 90+ for O at one institution, 91+ at another).</p>
+
+<h2 id="step2" class="serif">Step 2: Multiply by Credit Hours</h2>
+<p>Each subject is assigned a credit value reflecting its workload and importance in the curriculum. Theory subjects typically carry 3-4 credits, lab subjects carry 1-2 credits, and project work can range from 2-8 credits.</p>
+
+<div class="formula-card">
+<div class="label">For Each Subject</div>
+<div class="formula">Quality Points = Grade Point <em>×</em> Credits</div>
+<div class="example">Example: 9 grade points × 4 credits = 36 quality points</div>
+</div>
+
+<p>This step is critical: a subject worth 4 credits influences your GPA twice as much as one worth 2 credits, even if you got the same grade in both. This is why <strong>strategic effort allocation</strong> matters — focusing more energy on high-credit subjects has an outsized effect on your GPA.</p>
+
+<h2 id="step3" class="serif">Step 3: Sum the Quality Points and Divide by Total Credits</h2>
+<p>Now combine everything. Add up all your "quality points" (grade × credit for each subject) and divide by the sum of all credits.</p>
+
+<div class="formula-card">
+<div class="label">GPA Final Formula</div>
+<div class="formula">GPA = Σ Quality Points <em>÷</em> Σ Credits</div>
+<div class="example">Sum of (gp × credits) divided by sum of credits</div>
+</div>
+
+<div class="inline-img"><img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=900&h=500&fit=crop&auto=format&q=80" alt="Calculator with math equations on paper"><div class="inline-img-caption">GPA is a credit-weighted average, not a simple arithmetic average of grade points.</div></div>
+
+<h2 id="example" class="serif">Complete Worked Example</h2>
+<p>Let's compute the GPA for a hypothetical semester with 5 subjects:</p>
+
+<table>
+<thead><tr><th>Subject</th><th>Marks</th><th>Grade</th><th>Grade Point</th><th>Credits</th><th>Quality Points</th></tr></thead>
+<tbody>
+<tr><td>Mathematics</td><td>88</td><td>A+</td><td>9</td><td>4</td><td>36</td></tr>
+<tr><td>Physics</td><td>75</td><td>A</td><td>8</td><td>4</td><td>32</td></tr>
+<tr><td>Programming</td><td>92</td><td>O</td><td>10</td><td>3</td><td>30</td></tr>
+<tr><td>Electronics</td><td>68</td><td>B+</td><td>7</td><td>3</td><td>21</td></tr>
+<tr><td>Lab</td><td>85</td><td>A+</td><td>9</td><td>2</td><td>18</td></tr>
+<tr><td><strong>Total</strong></td><td></td><td></td><td></td><td><strong>16</strong></td><td><strong>137</strong></td></tr>
+</tbody>
+</table>
+
+<p>Now apply the formula:</p>
+<p style="text-align:center;background:var(--paper-soft);padding:1rem;border-radius:8px;font-family:'JetBrains Mono',monospace;font-weight:600"><strong>GPA = 137 ÷ 16 = 8.5625 ≈ 8.56</strong></p>
+
+<p>This student earned an 8.56 GPA for the semester. Note how the 92 in Programming contributed only 30 points (3 credits × 10), while the 88 in Math contributed 36 points (4 credits × 9). Higher-credit subjects with strong grades have the biggest GPA impact.</p>
+
+<div class="tool-cta">
+<h3 class="serif">Skip the calculation entirely</h3>
+<p>Use our free GPA Calculator — just enter your subject marks and credits. The tool handles all the math instantly.</p>
+<a href="/tools/#gpa-calc" class="tool-cta-btn">Try the Calculator →</a>
+</div>
+
+<h2 id="mistakes" class="serif">Common Mistakes to Avoid</h2>
+<p>Three mistakes account for most GPA miscalculations:</p>
+<p><strong>1. Using a generic grade scale.</strong> Your university may use slightly different cutoffs than the standard. A 90 might be an O at one university but A+ at another. Always check your handbook.</p>
+<p><strong>2. Treating GPA as a simple average.</strong> The single most common error is summing all grade points and dividing by the number of subjects — ignoring credits entirely. This gives wrong results when subjects have different credit values.</p>
+<p><strong>3. Forgetting practical and lab credits.</strong> Labs, project work, and seminars all carry credits. Excluding them inflates or deflates your GPA depending on your lab performance.</p>
+
+<h2 id="tips" class="serif">Tips for Accuracy</h2>
+<ul>
+<li><strong>Round only at the end</strong> — never round intermediate quality-point values</li>
+<li><strong>Keep at least two decimal places</strong> in your final GPA (e.g., 8.56, not 8.6)</li>
+<li><strong>Verify against your transcript</strong> when in doubt — your institutional GPA is the official number</li>
+<li><strong>For multi-semester CGPA</strong>, repeat the process across all semesters and use credit-weighted summation</li>
+</ul>
+<p>If you ever need to work this out quickly without a spreadsheet, our <a href="/tools/#gpa-calc" style="color:var(--accent);font-weight:600">free GPA Calculator</a> handles unlimited subjects, supports both 10-point and 4-point scales, and shows all the intermediate steps so you can verify the math yourself.</p>
+
+</div>
+<section class="faq-section"><div class="article-container"><h2 class="serif" style="margin:0 0 1.5rem">Frequently Asked Questions</h2><details class="faq-item"><summary>Is GPA calculated by averaging marks?</summary><div class="faq-body">No. GPA is calculated by converting marks to grade points, then computing a credit-weighted average of those grade points. Simply averaging marks gives wrong results.</div></details><details class="faq-item"><summary>Do all subjects count equally in GPA?</summary><div class="faq-body">No. Each subject's contribution depends on its credit value. A 4-credit subject influences your GPA twice as much as a 2-credit subject with the same grade.</div></details><details class="faq-item"><summary>What is a quality point?</summary><div class="faq-body">A quality point is the product of a subject's grade point and its credit value. Sum of quality points divided by sum of credits gives you your GPA.</div></details><details class="faq-item"><summary>Can I calculate GPA without knowing credit hours?</summary><div class="faq-body">Not accurately. Credits are essential because GPA is credit-weighted. If you don't know your credits, check your university handbook or syllabus.</div></details><details class="faq-item"><summary>What's the difference between SGPA and GPA?</summary><div class="faq-body">SGPA is the GPA for a single semester. GPA can refer to either a semester average or, in many international contexts, the cumulative average across all semesters.</div></details></div></section>
+<section class="related-section"><div class="article-container"><h2 class="serif" style="margin:0 0 0.5rem">Related Articles</h2><div class="related-grid"><a href="/blog/sgpa-vs-cgpa-difference/" class="related-card"><div class="cat">Explainer</div><h4>SGPA vs CGPA vs GPA</h4><p>Understand the three metrics clearly.</p></a><a href="/blog/aggregate-percentage/" class="related-card"><div class="cat">Tutorial</div><h4>Calculate Aggregate Percentage</h4><p>Combine marks from multiple subjects correctly.</p></a><a href="/blog/cgpa-to-percentage-guide/" class="related-card"><div class="cat">Guide</div><h4>CGPA to Percentage Guide</h4><p>Convert your final CGPA to percentage.</p></a></div></div></section>
+</article>
+<footer class="footer"><div class="container">
+<div class="footer-grid">
+<div><div class="logo" style="margin-bottom:1rem"><span class="logo-mark">C%</span><span>CGPA<span style="color:var(--accent)">/</span>P</span></div><p style="font-size:0.95rem">Free, accurate grade calculators for every Indian student.</p></div>
+<div><h4>Tools</h4><ul><li><a href="/#calculator">CGPA to Percentage</a></li><li><a href="/tools/#sgpa-to-cgpa">SGPA to CGPA</a></li><li><a href="/tools/#gpa-calc">GPA Calculator</a></li></ul></div>
+<div><h4>Company</h4><ul><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li><li><a href="/blog/">Blog</a></li></ul></div>
+<div><h4>Legal</h4><ul><li><a href="/privacy-policy/">Privacy</a></li><li><a href="/terms/">Terms</a></li></ul></div>
+</div>
+<div class="footer-bottom">© 2026 CGPA to Percentage Calculator.</div>
+</div></footer>
+</body>
+</html>

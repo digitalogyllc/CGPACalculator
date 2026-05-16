@@ -1,0 +1,42 @@
+# CGPA to Percentage Calculator
+
+> Free online tool to convert CGPA to percentage accurately for every Indian university. Built for students applying for higher studies, jobs, scholarships, and admissions. Supports 10-point, 5-point, and 4-point grading scales with university-specific formulas for CBSE, VTU, Anna University, Mumbai University, GTU, SPPU, MAKAUT, KTU, AKTU, and more.
+
+CGPA/P is an instant grade conversion utility for Indian students. The homepage runs the calculator. Supporting pages explain the formulas, list university-specific conversion rules, and offer five other calculators (Percentage → CGPA, SGPA → CGPA, SGPA → Percentage, GPA, Marks Percentage, Final Grade). The blog covers grade conversion theory, university admission benchmarks, GPA strategy for studying abroad, and common student mistakes.
+
+Key facts:
+- Domain: https://cgpapercentagecalculator.com
+- Audience: Indian university and school students (CBSE, undergraduate, postgraduate)
+- Default formula: Percentage = CGPA × 9.5 (CBSE standard); university-specific variants documented in the blog
+- Free, no signup, no data collection beyond standard analytics
+- All conversions run client-side in the browser; nothing is stored
+
+## Calculators
+
+- [CGPA to Percentage Calculator](https://cgpapercentagecalculator.com/): Main converter. Enter CGPA, pick university or formula, get percentage. Supports 10/5/4-point scales.
+- [All Grade Calculator Tools](https://cgpapercentagecalculator.com/tools/): Hub for six calculators — Percentage to CGPA, SGPA to CGPA, SGPA to Percentage, GPA Calculator, Marks Percentage Calculator, Final Grade Calculator.
+
+## Blog (Guides and Formulas)
+
+- [How to Convert CGPA to Percentage: Complete Guide 2026](https://cgpapercentagecalculator.com/blog/cgpa-to-percentage-guide/): The canonical guide. Official CGPA × 9.5 formula with worked examples across CBSE, VTU, Anna University, Mumbai University, and 10+ Indian universities.
+- [University-Wise CGPA to Percentage Formulas](https://cgpapercentagecalculator.com/blog/university-formulas/): Per-university formula breakdown for VTU, Anna University, Mumbai, GTU, SPPU, KTU, AKTU, MAKAUT, and CBSE.
+- [SGPA vs CGPA vs GPA: The Difference Explained](https://cgpapercentagecalculator.com/blog/sgpa-vs-cgpa-difference/): Clarifies the three grading metrics with formulas and worked examples.
+- [What is a Good CGPA in India?](https://cgpapercentagecalculator.com/blog/good-cgpa-india/): Benchmarks for placements, government jobs, higher studies, and scholarships based on real recruiter expectations.
+- [How to Improve Your CGPA: 7 Proven Strategies](https://cgpapercentagecalculator.com/blog/improve-cgpa/): The math of CGPA recovery, study habits, subject prioritization, and backlog management.
+- [CGPA to GPA Conversion for Studying Abroad](https://cgpapercentagecalculator.com/blog/cgpa-higher-studies-abroad/): Indian CGPA → international GPA for US, UK, Canada, Australia. Covers WES, ECE, minimum CGPA requirements.
+- [How to Calculate Aggregate Percentage from Marksheets](https://cgpapercentagecalculator.com/blog/aggregate-percentage/): Aggregate percentage with mixed max-marks, weighted percentages, NEET/JEE scenarios.
+- [How to Calculate GPA from Marks: Step-by-Step](https://cgpapercentagecalculator.com/blog/calculate-gpa-from-marks/): Grade points, credit hours, weighted averages, and common pitfalls.
+- [10 Common Mistakes When Calculating CGPA](https://cgpapercentagecalculator.com/blog/cgpa-mistakes/): Wrong formulas, credit confusion, rounding errors, SGPA mix-ups.
+- [Final Exam Strategy: What Score Do You Need to Pass?](https://cgpapercentagecalculator.com/blog/final-exam-strategy/): Required-score formula with worked examples and a 30-day study plan.
+- [Blog Index](https://cgpapercentagecalculator.com/blog/): All articles, organized by topic.
+
+## About the Site
+
+- [About](https://cgpapercentagecalculator.com/about/): Mission and team behind the calculator.
+- [Contact](https://cgpapercentagecalculator.com/contact/): Email and contact form for feedback, university additions, and partnerships.
+
+## Optional
+
+- [Privacy Policy](https://cgpapercentagecalculator.com/privacy-policy/): How user data, cookies, and Google AdSense are handled.
+- [Terms of Service](https://cgpapercentagecalculator.com/terms/): Rules governing site and tool use.
+- [Disclaimer](https://cgpapercentagecalculator.com/disclaimer/): Accuracy notes and advertising disclosure.

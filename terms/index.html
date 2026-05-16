@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO -->
+<title>Terms of Service – CGPA to Percentage Calculator</title>
+<meta name="description" content="Terms of Service for CGPA to Percentage Calculator. Read the rules governing the use of our website, calculator, and related content.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1e4d3a">
+<link rel="canonical" href="https://cgpapercentagecalculator.com/terms/">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg transform='rotate(-3 16 16)'%3E%3Crect x='2' y='2' width='28' height='28' rx='6' fill='%231e4d3a'/%3E%3Ctext x='16' y='21.5' font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size='13' font-weight='700' fill='%23f4efe6' text-anchor='middle'%3EC%25%3C/text%3E%3C/g%3E%3C/svg%3E">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:'Inter Tight',system-ui,sans-serif;background:#f4efe6;color:#1a1a1a;line-height:1.65;font-size:17px;overflow-x:hidden}
+
+:root{
+  --ink:#1a1a1a; --ink-soft:#3a3a3a; --ink-muted:#6b6b6b;
+  --paper:#f4efe6; --paper-soft:#ebe4d6; --paper-deep:#e2d9c5;
+  --accent:#c8552c; --accent-deep:#a8431f;
+  --green:#1e4d3a;
+  --line:#1a1a1a14;
+}
+
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.serif{font-family:'Fraunces',Georgia,serif}
+.mono{font-family:'JetBrains Mono',monospace}
+
+h1,h2,h3,h4{font-family:'Fraunces',Georgia,serif;font-weight:600;line-height:1.15;letter-spacing:-0.02em;color:var(--ink)}
+h1{font-size:clamp(2.25rem,5vw,3.5rem);font-weight:500;margin-bottom:1rem}
+h2{font-size:clamp(1.6rem,3vw,2.1rem);font-weight:500;margin:2.75rem 0 1rem}
+h3{font-size:1.25rem;font-weight:600;margin:2rem 0 0.75rem}
+p{margin-bottom:1.1rem;color:var(--ink-soft)}
+strong{color:var(--ink);font-weight:600}
+
+.container{max-width:1180px;margin:0 auto;padding:0 1.5rem}
+.narrow{max-width:780px;margin:0 auto;padding:0 1.5rem}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:100;background:rgba(244,239,230,0.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:1.1rem 1.5rem;max-width:1180px;margin:0 auto}
+.logo{display:flex;align-items:center;gap:0.6rem;font-family:'Fraunces',serif;font-weight:600;font-size:1.25rem;color:var(--ink)}
+.logo-mark{width:34px;height:34px;background:var(--green);color:var(--paper);display:grid;place-items:center;border-radius:8px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:0.85rem;transform:rotate(-3deg)}
+.nav-links{display:flex;gap:2rem;font-size:0.95rem;font-weight:500}
+.nav-links a{color:var(--ink-soft);transition:color 0.2s}
+.nav-links a:hover{color:var(--accent)}
+@media (max-width:760px){.nav-links{display:none}}
+
+/* HERO */
+.page-hero{padding:4rem 0 2rem;position:relative}
+.page-hero::after{content:"";display:block;width:60px;height:3px;background:var(--accent);margin-top:2rem}
+.section-eyebrow{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:0.78rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem;padding:0.3rem 0.7rem;background:#c8552c14;border-radius:6px}
+.page-lede{font-size:1.15rem;color:var(--ink-soft);max-width:620px;margin-top:0.5rem}
+.updated-meta{font-family:'JetBrains Mono',monospace;font-size:0.82rem;color:var(--ink-muted);margin-bottom:0.5rem}
+
+/* CONTENT */
+.policy-content{padding:2rem 0 5rem}
+.policy-content h2:first-of-type{margin-top:0.5rem}
+.policy-content p{font-size:1.02rem;line-height:1.75}
+.policy-content ul,.policy-content ol{margin:1rem 0 1.5rem 1.25rem;color:var(--ink-soft)}
+.policy-content li{margin-bottom:0.55rem;line-height:1.7}
+.policy-content a{color:var(--accent-deep);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.policy-content a:hover{color:var(--accent)}
+
+.callout{background:#fffdf7;border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-size:0.97rem}
+.callout strong{display:block;margin-bottom:0.3rem}
+
+.toc{background:#fffdf7;border:1px solid var(--line);border-radius:14px;padding:1.5rem 1.75rem;margin:2rem 0 3rem}
+.toc h4{font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink-muted);font-family:'Inter Tight',sans-serif;font-weight:600;margin-bottom:0.85rem}
+.toc ol{margin:0 0 0 1.25rem;columns:2;column-gap:2rem}
+@media (max-width:600px){.toc ol{columns:1}}
+.toc li{margin-bottom:0.4rem;font-size:0.95rem;break-inside:avoid}
+
+/* FOOTER */
+.footer{background:var(--paper-soft);padding:3rem 0 2rem;border-top:1px solid var(--line)}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem;margin-bottom:2rem}
+@media (max-width:960px){.footer-grid{grid-template-columns:1fr 1fr;gap:2.5rem 2rem}}
+@media (max-width:520px){.footer-grid{grid-template-columns:1fr}}
+.footer h4{font-family:'Inter Tight',sans-serif;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink);margin-bottom:1rem;font-weight:600}
+.footer ul{list-style:none}
+.footer li{margin-bottom:0.5rem;font-size:0.93rem}
+.footer a{color:var(--ink-soft)}
+.footer a:hover{color:var(--accent)}
+.footer-brand p{font-size:0.95rem;max-width:380px;margin:0}
+.footer-bottom{padding-top:2rem;border-top:1px solid var(--line);text-align:center;font-size:0.85rem;color:var(--ink-muted)}
+
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background-image:radial-gradient(#1a1a1a08 1px,transparent 1px);background-size:32px 32px;opacity:0.5}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <nav class="nav-inner" aria-label="Main navigation">
+    <a href="/" class="logo">
+      <span class="logo-mark">C%</span>
+      <span>CGPA<span style="color:var(--accent)">/</span>P</span>
+    </a>
+    <div class="nav-links">
+      <a href="/#calculator">Calculator</a>
+      <a href="/#formula">Formula</a>
+      <a href="/#table">Conversion Table</a>
+      <a href="/#faq">FAQ</a>
+      <a href="/about/">About</a>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="narrow">
+    <div class="section-eyebrow">Legal</div>
+    <div class="updated-meta">Last updated: 15 May 2026</div>
+    <h1 class="serif">Terms of Service</h1>
+    <p class="page-lede">The rules of using our website and calculator. Plain language, no legalese mountain.</p>
+  </div>
+</section>
+
+<!-- POLICY CONTENT -->
+<main class="policy-content">
+  <div class="narrow">
+
+    <div class="toc">
+      <h4>Contents</h4>
+      <ol>
+        <li><a href="#acceptance">Acceptance of terms</a></li>
+        <li><a href="#service">The service</a></li>
+        <li><a href="#use">Permitted use</a></li>
+        <li><a href="#prohibited">Prohibited use</a></li>
+        <li><a href="#ip">Intellectual property</a></li>
+        <li><a href="#disclaimer">Disclaimer</a></li>
+        <li><a href="#liability">Limitation of liability</a></li>
+        <li><a href="#third-party">Third-party links &amp; ads</a></li>
+        <li><a href="#indemnity">Indemnification</a></li>
+        <li><a href="#changes">Changes</a></li>
+        <li><a href="#law">Governing law</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </div>
+
+    <h2 id="acceptance">1. Acceptance of terms</h2>
+    <p>Welcome to <strong>CGPA to Percentage Calculator</strong> ("we", "us", "our", or "the Site"). By accessing or using our website at <span class="mono">cgpapercentagecalculator.com</span> and any of its pages, tools, or content, you ("user", "you") agree to be bound by these Terms of Service ("Terms").</p>
+    <p>If you do not agree to these Terms, please do not use our Site. Your continued use of the Site after any changes to these Terms constitutes acceptance of those changes.</p>
+
+    <h2 id="service">2. The service we provide</h2>
+    <p>Our Site provides a free online calculator that converts CGPA (Cumulative Grade Point Average) values into percentage equivalents using publicly available formulas from various Indian universities, the CBSE board, and international grading scales. We also provide reference content such as conversion tables, formula explanations, and educational FAQs.</p>
+    <p>The calculator runs entirely in your web browser. We do not require you to create an account or submit personal information to use it.</p>
+
+    <h2 id="use">3. Permitted use</h2>
+    <p>You may use our Site for personal, non-commercial, and educational purposes, including:</p>
+    <ul>
+      <li>Converting your own CGPA to a percentage for self-reference</li>
+      <li>Looking up conversion formulas for various universities</li>
+      <li>Sharing links to our pages on social media or in academic contexts</li>
+      <li>Citing our content in academic papers, blogs, or articles (with proper attribution and a link back)</li>
+      <li>Recommending our Site to fellow students, teachers, and counsellors</li>
+    </ul>
+
+    <h2 id="prohibited">4. Prohibited use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Copy, scrape, or republish substantial portions of our content without written permission</li>
+      <li>Use automated tools (bots, scrapers, spiders) to access the Site at high rates that may degrade performance</li>
+      <li>Attempt to reverse-engineer, decompile, or interfere with the operation of our Site or its underlying code</li>
+      <li>Use the Site or its content to engage in any unlawful, fraudulent, harmful, or abusive activity</li>
+      <li>Misrepresent the results of our calculator as official records issued by any university</li>
+      <li>Transmit any viruses, malware, or other malicious code through the Site</li>
+      <li>Use the Site in a manner that could damage, disable, overburden, or impair its functionality</li>
+    </ul>
+
+    <h2 id="ip">5. Intellectual property</h2>
+    <p>All content on this Site — including the design, layout, text, graphics, logos, code, calculator logic, and conversion tables — is the property of CGPA to Percentage Calculator or its content suppliers and is protected by applicable copyright, trademark, and other intellectual property laws.</p>
+    <p>The conversion <strong>formulas</strong> themselves are publicly available and belong to the respective universities and educational boards that publish them. We do not claim ownership of the formulas.</p>
+    <p>You may not reproduce, distribute, modify, create derivative works of, publicly display, or commercially exploit any of our proprietary content without our prior written permission. Short quotations for the purpose of review, commentary, or educational citation are permitted under fair-use principles, provided you credit and link back to our Site.</p>
+
+    <h2 id="disclaimer">6. Disclaimer of warranties</h2>
+    <p>Our Site and its calculator are provided <strong>"as is"</strong> and <strong>"as available"</strong>, without warranties of any kind, either express or implied. While we make every effort to ensure the formulas and content on our Site are accurate and up to date, we do not warrant that:</p>
+    <ul>
+      <li>The Site will be uninterrupted, secure, or error-free</li>
+      <li>The calculator results are 100% accurate for every individual case</li>
+      <li>The Site is free from viruses or other harmful components</li>
+      <li>Any information obtained through the Site will meet your specific requirements</li>
+    </ul>
+    <p>For complete details about the limitations of our calculator's results, please read our <a href="/disclaimer/">Disclaimer page</a>.</p>
+
+    <div class="callout">
+      <strong>Important</strong>
+      The percentage figure generated by our calculator is for your personal reference only. For any official use — including job applications, university admissions, scholarships, or government forms — you must verify your percentage with your university's registrar or your official transcript.
+    </div>
+
+    <h2 id="liability">7. Limitation of liability</h2>
+    <p>To the maximum extent permitted by applicable law, in no event shall CGPA to Percentage Calculator, its owners, operators, employees, agents, or affiliates be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising out of or relating to:</p>
+    <ul>
+      <li>Your use of, or inability to use, the Site or calculator</li>
+      <li>Any decision you make based on results from the calculator</li>
+      <li>Any errors, omissions, inaccuracies, or outdated information on the Site</li>
+      <li>Any unauthorized access to or alteration of your data or transmissions</li>
+      <li>Any interruption or cessation of the Site or its services</li>
+    </ul>
+    <p>This limitation applies regardless of the legal theory on which the claim is based and even if we have been advised of the possibility of such damages.</p>
+
+    <h2 id="third-party">8. Third-party links and advertising</h2>
+    <p>Our Site may contain links to third-party websites and may display advertisements served by third-party networks such as <strong>Google AdSense</strong>. We do not control these third-party sites or services and are not responsible for their content, privacy practices, products, or services.</p>
+    <p>The inclusion of any link or ad on our Site does not imply endorsement. We encourage you to read the terms and privacy policies of any third-party site you visit. See our <a href="/privacy-policy/">Privacy Policy</a> for more details on how third-party advertising works on our Site.</p>
+
+    <h2 id="indemnity">9. Indemnification</h2>
+    <p>You agree to indemnify, defend, and hold harmless CGPA to Percentage Calculator, its owners, and operators from and against any claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising out of or in any way connected with your use of the Site, your violation of these Terms, or your violation of any rights of a third party.</p>
+
+    <h2 id="changes">10. Changes to these terms</h2>
+    <p>We may update these Terms from time to time to reflect changes in our practices, services, or applicable law. When we do, we'll update the "Last updated" date at the top of this page. Material changes will be flagged more prominently. Your continued use of the Site after any such update constitutes your acceptance of the revised Terms.</p>
+
+    <h2 id="law">11. Governing law</h2>
+    <p>These Terms shall be governed by and construed in accordance with the laws of <strong>India</strong>, without regard to its conflict of law provisions. Any disputes arising out of or relating to these Terms or your use of the Site shall be subject to the exclusive jurisdiction of the competent courts located in India.</p>
+    <p>If any provision of these Terms is found by a court of competent jurisdiction to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.</p>
+
+    <h2 id="contact">12. Contact us</h2>
+    <p>If you have questions about these Terms of Service, please get in touch:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:hello@example.com">hello@example.com</a></li>
+      <li><strong>Contact form:</strong> <a href="/contact/">Contact page</a></li>
+    </ul>
+
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo" style="margin-bottom:1rem">
+          <span class="logo-mark">C%</span>
+          <span>CGPA<span style="color:var(--accent)">/</span>P</span>
+        </div>
+        <p>The most accurate CGPA to percentage calculator on the web. Built for Indian students, supports all major universities, and free to use forever.</p>
+      </div>
+      <div>
+        <h4>Tools</h4>
+        <ul>
+          <li><a href="/#calculator">CGPA to Percentage</a></li>
+          <li><a href="/#table">Conversion Table</a></li>
+          <li><a href="/#formula">Formulas</a></li>
+          <li><a href="/#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/#what-is-cgpa">What is CGPA</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/terms/">Terms of Service</a></li>
+          <li><a href="/disclaimer/">Disclaimer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 CGPA to Percentage Calculator. All rights reserved. Built with care for students everywhere.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
